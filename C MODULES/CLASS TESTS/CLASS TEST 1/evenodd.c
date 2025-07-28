@@ -1,10 +1,10 @@
 #include<stdio.h>
 void main(){
-	int a= 18;
-	if(a>=18){
-		printf("youre eligible to vote");
+	int a= 2;
+	if(a%2==0){
+		printf("even");
 	}
 	else{
-		printf("youre not eligible to run");
+		printf("odd");
 	}
 }
